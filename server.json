@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.searchfragments/search-fragments",
+  "title": "Search Fragments",
+  "description": "For queries a model can't confidently place: resolves or declines. Built to decline, not guess.",
+  "websiteUrl": "https://searchfragments.com",
+  "version": "0.2.2",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://searchfragments.com/api/mcp" }
+  ]
+}

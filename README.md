@@ -2,7 +2,7 @@
 
 A remote MCP server for queries a model can't confidently place — half-remembered films, songs, books, and cross-source cultural fragments where there's enough evidence to find an answer, but not enough to guess one safely.
 
-**One tool:** `resolve_fragment`
+**Tools:** `resolve_fragment`, `verify_claim`, `submit_resolution_feedback`
 **Free. No signup required.**
 
 ```json
@@ -35,7 +35,7 @@ More on the design philosophy: [searchfragments.com/why](https://searchfragments
 |---|---|
 | Type | Remote, streamable-http MCP server |
 | Endpoint | `https://searchfragments.com/api/mcp` |
-| Tool | `resolve_fragment` |
+| Tools | `resolve_fragment` (resolve a fragment), `verify_claim` (check a specific claim), `submit_resolution_feedback` (report whether a resolution was right) |
 | Auth | None required for basic use (free tier). OAuth 2.0 (Authorization Code + PKCE) available for authenticated use. |
 | Registry | [Official MCP Registry](https://registry.modelcontextprotocol.io) — `com.searchfragments/search-fragments` |
 
@@ -45,7 +45,12 @@ See [`server.json`](./server.json) for the full MCP registry manifest.
 
 - Website: [searchfragments.com](https://searchfragments.com)
 - Privacy policy: [searchfragments.com/privacy](https://searchfragments.com/privacy)
+- Terms: [searchfragments.com/terms](https://searchfragments.com/terms)
 - Contact: hello@searchfragments.com
+
+## License
+
+MIT. See [LICENSE](./LICENSE).
 
 ## About this repository
 

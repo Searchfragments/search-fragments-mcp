@@ -5,6 +5,8 @@ A remote MCP server for queries a model can't confidently place — half-remembe
 **Tools:** `resolve_fragment`, `verify_claim`, `submit_resolution_feedback`
 **Free. No signup required.**
 
+Available in [Claude](https://claude.ai/directory/search-fragments), [Cursor](https://cursor.directory/plugins/search-fragments) and [Raycast](https://www.raycast.com/raycast/model-context-protocol-registry), or add the URL below to any MCP-compatible agent.
+
 ```json
 {
   "mcpServers": {
@@ -37,7 +39,7 @@ More on the design philosophy: [searchfragments.com/why](https://searchfragments
 | Endpoint | `https://searchfragments.com/api/mcp` |
 | Tools | `resolve_fragment` (resolve a fragment), `verify_claim` (check a specific claim), `submit_resolution_feedback` (report whether a resolution was right) |
 | Auth | None required for basic use (free tier). OAuth 2.0 (Authorization Code + PKCE) available for authenticated use. |
-| Registry | [Official MCP Registry](https://registry.modelcontextprotocol.io) — `com.searchfragments/search-fragments` |
+| Registry | [MCP Registry](https://registry.modelcontextprotocol.io) — `com.searchfragments/search-fragments` |
 
 See [`server.json`](./server.json) for the full MCP registry manifest.
 

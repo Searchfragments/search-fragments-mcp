@@ -5,7 +5,7 @@ A remote MCP server for queries a model can't confidently place — half-remembe
 **Tools:** `resolve_fragment`, `verify_claim`, `submit_resolution_feedback`
 **Free. No signup required.**
 
-Available in [Claude](https://claude.ai/directory/search-fragments), [Cursor](https://cursor.directory/plugins/search-fragments) and [Raycast](https://www.raycast.com/raycast/model-context-protocol-registry), or add the URL below to any MCP-compatible agent.
+Available in [Claude](https://claude.ai/directory/search-fragments), [Cursor](https://cursor.directory/plugins/search-fragments), [Raycast](https://www.raycast.com/raycast/model-context-protocol-registry) and [GitHub](https://github.com/mcp/com.searchfragments/search-fragments), or add the URL below to any MCP-compatible agent.
 
 ```json
 {

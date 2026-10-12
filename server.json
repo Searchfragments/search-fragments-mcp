@@ -2,13 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.searchfragments/search-fragments",
   "title": "Search Fragments",
-  "description": "Resolves half-remembered books, films, songs and people into a cited answer, a shortlist or a no.",
+  "description": "Pieces together films, shows, songs, books, quotes, places and studies from remembered fragments.",
   "websiteUrl": "https://searchfragments.com",
   "repository": {
     "url": "https://github.com/Searchfragments/search-fragments-mcp",
     "source": "github"
   },
-  "version": "0.2.4",
+  "version": "0.2.5",
   "remotes": [
     { "type": "streamable-http", "url": "https://searchfragments.com/api/mcp" }
   ]

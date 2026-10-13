@@ -1,6 +1,6 @@
 # Search Fragments
 
-A remote MCP server for queries a model can't confidently place — half-remembered films, songs, books, and cross-source cultural fragments where there's enough evidence to find an answer, but not enough to guess one safely.
+**Resolve half-remembered queries without guessing.** A confident answer, a ranked shortlist, or an honest no. For when you half-remember something and can't place it. Half-remembered, cross-source queries usually take a dozen tabs and five rephrasings; Search Fragments collapses that into one call. Not for well-known facts, where normal search is faster.
 
 **Tools:** `resolve_fragment`, `verify_claim`, `submit_resolution_feedback`
 **Free. No signup required.**
